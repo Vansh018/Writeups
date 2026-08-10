@@ -1,6 +1,6 @@
-# lightningf4st — Cybersecurity Writeups
+# lightningf4st — CTF Writeups
 
-Archived writeups migrated from Medium.
+All of my CTF writeups are listed below.
 
 ## PicoCTF
 
@@ -8,10 +8,10 @@ Archived writeups migrated from Medium.
 - [PICOCTF — Plumbing](writeups/PicoCTF/picoctf-plumbing/)
 
 ## THM
-
-- [TRYHACKME : CHOCOLATE FACTORY WRITEUP](writeups/THM/tryhackme-chocolate-factory-writeup/)
-- [Tryhackme K2 — The Base Camp](writeups/THM/tryhackme-k2-the-base-camp/)
-- [TRYHACKME ROOM 404](writeups/THM/tryhackme-room-404/)
+- [TRYHACKME — AFTER HOURS](writeups/THM/tryhackme-after-hours)
+- [TRYHACKME — CHOCOLATE FACTORY WRITEUP](writeups/THM/tryhackme-chocolate-factory-writeup/)
+- [Tryhackme — K2 The Base Camp](writeups/THM/tryhackme-k2-the-base-camp/)
+- [TRYHACKME — ROOM 404](writeups/THM/tryhackme-room-404/)
 - [TRYHACKME — ANONYMOUS WRITEUP](writeups/THM/tryhackme-anonymous-writeup/)
 - [TRYHACKME — BEACH BAR](writeups/THM/tryhackme-beach-bar/)
 - [TRYHACKME — CACTCH ME OUTSIDE (OSINT)](writeups/THM/tryhackme-cactch-me-outside-osint/)
@@ -21,6 +21,7 @@ Archived writeups migrated from Medium.
 - [TRYHACKME — DAVE’S BLOG](writeups/THM/tryhackme-daves-blog/)
 - [TRYHACKME — DEBUG](writeups/THM/tryhackme-debug/)
 - [TRYHACKME — DO NOT DISTURB](writeups/THM/tryhackme-do-not-disturb/)
+- [TRYHACKME — INFINITY POOL](writeups/THM/tryhackme-infinity-pool)
 - [TRYHACKME — MADEYE’S CASTLE](writeups/THM/tryhackme-madeyes-castle/)
 - [TRYHACKME — MNEMONIC](writeups/THM/tryhackme-mnemonic/)
 - [TRYHACKME — OVERHEARD AT BREAKFAST](writeups/THM/tryhackme-overheard-at-breakfast/)
