@@ -21,8 +21,6 @@ Archived writeups migrated from Medium.
 - [TRYHACKME — DAVE’S BLOG](writeups/THM/tryhackme-daves-blog/)
 - [TRYHACKME — DEBUG](writeups/THM/tryhackme-debug/)
 - [TRYHACKME — DO NOT DISTURB](writeups/THM/tryhackme-do-not-disturb/)
-- [TRYHACKME — INFINITY POOL](writeups/THM/tryhackme-infinity-pool/)
-- [TRYHACKME — INFINITY POOL](writeups/THM/tryhackme-infinity-pool/)
 - [TRYHACKME — MADEYE’S CASTLE](writeups/THM/tryhackme-madeyes-castle/)
 - [TRYHACKME — MNEMONIC](writeups/THM/tryhackme-mnemonic/)
 - [TRYHACKME — OVERHEARD AT BREAKFAST](writeups/THM/tryhackme-overheard-at-breakfast/)
