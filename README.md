@@ -8,8 +8,8 @@ All of my CTF writeups are listed below.
 - [PICOCTF — Plumbing](writeups/PicoCTF/picoctf-plumbing/)
 
 ## THM
-- [TRYHACKME : AFTER HOURS](writeups/THM/tryhackme-after-hours)
-- [TRYHACKME : CHOCOLATE FACTORY WRITEUP](writeups/THM/tryhackme-chocolate-factory-writeup/)
+- [TRYHACKME — AFTER HOURS](writeups/THM/tryhackme-after-hours)
+- [TRYHACKME — CHOCOLATE FACTORY WRITEUP](writeups/THM/tryhackme-chocolate-factory-writeup/)
 - [Tryhackme K2 — The Base Camp](writeups/THM/tryhackme-k2-the-base-camp/)
 - [TRYHACKME ROOM 404](writeups/THM/tryhackme-room-404/)
 - [TRYHACKME — ANONYMOUS WRITEUP](writeups/THM/tryhackme-anonymous-writeup/)
@@ -21,7 +21,7 @@ All of my CTF writeups are listed below.
 - [TRYHACKME — DAVE’S BLOG](writeups/THM/tryhackme-daves-blog/)
 - [TRYHACKME — DEBUG](writeups/THM/tryhackme-debug/)
 - [TRYHACKME — DO NOT DISTURB](writeups/THM/tryhackme-do-not-disturb/)
-- [TRYHACKME : INFINITY POOL](writeups/THM/tryhackme-infinity-pool)
+- [TRYHACKME — INFINITY POOL](writeups/THM/tryhackme-infinity-pool)
 - [TRYHACKME — MADEYE’S CASTLE](writeups/THM/tryhackme-madeyes-castle/)
 - [TRYHACKME — MNEMONIC](writeups/THM/tryhackme-mnemonic/)
 - [TRYHACKME — OVERHEARD AT BREAKFAST](writeups/THM/tryhackme-overheard-at-breakfast/)
