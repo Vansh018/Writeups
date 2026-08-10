@@ -10,8 +10,8 @@ All of my CTF writeups are listed below.
 ## THM
 - [TRYHACKME — AFTER HOURS](writeups/THM/tryhackme-after-hours)
 - [TRYHACKME — CHOCOLATE FACTORY WRITEUP](writeups/THM/tryhackme-chocolate-factory-writeup/)
-- [Tryhackme K2 — The Base Camp](writeups/THM/tryhackme-k2-the-base-camp/)
-- [TRYHACKME ROOM 404](writeups/THM/tryhackme-room-404/)
+- [Tryhackme — K2 The Base Camp](writeups/THM/tryhackme-k2-the-base-camp/)
+- [TRYHACKME — ROOM 404](writeups/THM/tryhackme-room-404/)
 - [TRYHACKME — ANONYMOUS WRITEUP](writeups/THM/tryhackme-anonymous-writeup/)
 - [TRYHACKME — BEACH BAR](writeups/THM/tryhackme-beach-bar/)
 - [TRYHACKME — CACTCH ME OUTSIDE (OSINT)](writeups/THM/tryhackme-cactch-me-outside-osint/)
