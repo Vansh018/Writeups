@@ -113,7 +113,7 @@ Which was honestly a great sign, meant the override tool really was hitting a sh
 Decoded the blob (it was double base64'd, had to decode it twice):
 
 ```
-THM{c4r0l_t00k_th3_f4ll}
+THM{*****************}
 ```
 
 Honestly one of the harder rooms I've done, the injection itself wasn't the hard part, chaining authorization spoofing + tool discovery + exact shell-safe formatting together was. Took a stupid number of attempts before it clicked.
