@@ -205,7 +205,7 @@ Eventually, something interesting appeared:
 
 bytelotusdc
 cmd.exe
-/c net user patch VEhNe1A0dGNoX29wM25lZF90aDNfQmFjS2QwMHJ9 /add
+/c net user patch VEhNe1A0dGNoX29wM25lZF90aDNfQmFjS2****** /add
 
 There was our flag.
 
@@ -223,19 +223,19 @@ with the Base64 string as its password.
 
 The value was:
 
-VEhNe1A0dGNoX29wM25lZF90aDNfQmFjS2QwMHJ9
+VEhNe1A0dGNoX29wM25lZF90aDNfQmFjS2******
 
 It is Base64.
 
 Decoding it gives:
 
-THM{P4tch_op3n3d_tH3_BacKd00r}
+THM{*********************}
 
 And that's the flag.
 
 📝 FINAL FLAG
 
-THM{P4tch_op3n3d_tH3_BacKd00r}
+THM{*********************}
 
 🧠 WHAT HAPPENED?
 
