@@ -5,7 +5,7 @@ All of my CTF writeups are listed below.
 ## PicoCTF
 
 - [PICOCTF :- BASED](writeups/PicoCTF/picoctf-based/)
-- [PICOCTF — Plumbing](writeups/PicoCTF/picoctf-plumbing/)
+- [PICOCTF — PLUMBING](writeups/PicoCTF/picoctf-plumbing/)
 
 ## THM
 - [TRYHACKME — AFTER HOURS](writeups/THM/tryhackme-after-hours)
