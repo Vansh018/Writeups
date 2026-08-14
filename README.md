@@ -5,7 +5,7 @@ All of my CTF writeups are listed below.
 ## PicoCTF
 
 - [PICOCTF :- BASED](writeups/PicoCTF/picoctf-based/)
-- [PICOCTF — Plumbing](writeups/PicoCTF/picoctf-plumbing/)
+- [PICOCTF — PLUMBING](writeups/PicoCTF/picoctf-plumbing/)
 
 ## THM
 - [TRYHACKME — AFTER HOURS](writeups/THM/tryhackme-after-hours)
@@ -21,6 +21,7 @@ All of my CTF writeups are listed below.
 - [TRYHACKME — DAVE’S BLOG](writeups/THM/tryhackme-daves-blog/)
 - [TRYHACKME — DEBUG](writeups/THM/tryhackme-debug/)
 - [TRYHACKME — DO NOT DISTURB](writeups/THM/tryhackme-do-not-disturb/)
+- [TRYHACKME — DOMINO](writeups/THM/tryhackme-domino/)
 - [TRYHACKME — INFINITY POOL](writeups/THM/tryhackme-infinity-pool)
 - [TRYHACKME — MADEYE’S CASTLE](writeups/THM/tryhackme-madeyes-castle/)
 - [TRYHACKME — MNEMONIC](writeups/THM/tryhackme-mnemonic/)
