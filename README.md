@@ -20,6 +20,7 @@ All of my CTF writeups are listed below.
 - [TRYHACKME — CYBERCRAFTED](writeups/THM/tryhackme-cybercrafted/)
 - [TRYHACKME — DAVE’S BLOG](writeups/THM/tryhackme-daves-blog/)
 - [TRYHACKME — DEBUG](writeups/THM/tryhackme-debug/)
+- [TRYHACKME — DIFFERENT CTF](writeups/THM/tryhackme-different-ctf/)
 - [TRYHACKME — DO NOT DISTURB](writeups/THM/tryhackme-do-not-disturb/)
 - [TRYHACKME — DOMINO](writeups/THM/tryhackme-domino/)
 - [TRYHACKME — INFINITY POOL](writeups/THM/tryhackme-infinity-pool)
