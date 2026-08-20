@@ -35,4 +35,5 @@ All of my CTF writeups are listed below.
 - [TRYHACKME — THE HOLLOW SHELL](writeups/THM/tryhackme-the-hollow-shell/)
 - [TRYHACKME — TOWEL ON THE SUNBED](writeups/THM/tryhackme-towel-on-the-sunbed/)
 - [TRYHACKME — UNDISCOVERED](writeups/THM/tryhackme-undiscovered/)
+- [TRYHACKME — UNSTABLE TWIN](writeups/THM/tryhackme-unstable-twin/)
 - [TRYHACKME — WATCHER WRITEUP](writeups/THM/tryhackme-watcher-writeup/)
