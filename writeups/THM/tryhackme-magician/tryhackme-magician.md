@@ -1,6 +1,6 @@
 ## TRYHACKME - MAGICIAN
 
-Another day, another rabbit hole full of magic tricks. This box (Magician) is themed around ImageMagick, and it's a fun one because the box practically hands you the exploit hint in the FTP banner. Let's get into it.
+This room (Magician) is themed around ImageMagick, and it's a fun one because the box practically hands you the exploit hint in the FTP banner. Let's get into it.
 
 ### Enumeration
 
