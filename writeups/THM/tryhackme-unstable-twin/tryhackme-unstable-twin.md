@@ -1,6 +1,6 @@
-# TryHackMe: Unstable — Writeup
+# TryHackMe: Unstable Twin — Writeup
 
-Room today is called **Unstable**, and honestly the name checks out — nginx front end, an undocumented API, a family full of hidden notes. Let's get into it.
+Room today is called **Unstable Twin**, and honestly the name checks out — nginx front end, an undocumented API, a family full of hidden notes. Let's get into it.
 
 ## Recon
 

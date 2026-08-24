@@ -10,7 +10,7 @@ All of my CTF writeups are listed below.
 ## THM
 - [TRYHACKME — AFTER HOURS](writeups/THM/tryhackme-after-hours)
 - [TRYHACKME — CHOCOLATE FACTORY WRITEUP](writeups/THM/tryhackme-chocolate-factory-writeup/)
-- [Tryhackme — K2 The Base Camp](writeups/THM/tryhackme-k2-the-base-camp/)
+- [TRYHACKME — K2 The Base Camp](writeups/THM/tryhackme-k2-the-base-camp/)
 - [TRYHACKME — ROOM 404](writeups/THM/tryhackme-room-404/)
 - [TRYHACKME — ANONYMOUS WRITEUP](writeups/THM/tryhackme-anonymous-writeup/)
 - [TRYHACKME — BEACH BAR](writeups/THM/tryhackme-beach-bar/)
@@ -35,4 +35,5 @@ All of my CTF writeups are listed below.
 - [TRYHACKME — THE HOLLOW SHELL](writeups/THM/tryhackme-the-hollow-shell/)
 - [TRYHACKME — TOWEL ON THE SUNBED](writeups/THM/tryhackme-towel-on-the-sunbed/)
 - [TRYHACKME — UNDISCOVERED](writeups/THM/tryhackme-undiscovered/)
+- [TRYHACKME — UNSTABLE TWIN](writeups/THM/tryhackme-unstable-twin/)
 - [TRYHACKME — WATCHER WRITEUP](writeups/THM/tryhackme-watcher-writeup/)
