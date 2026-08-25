@@ -1,4 +1,4 @@
-# HackSmarterLabs - Casino | Writeup
+# HackSmarterLabs - Casino
 
 **Target:** Hack Smarter World Resort (Guest WiFi Captive Portal)
 **Objective:** Gain initial access via the captive portal and escalate to root.
