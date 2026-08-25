@@ -254,13 +254,7 @@ Grabbed the **root flag** this way.
 
 ---
 
-## Summary / Root Cause Chain
 
-1. **Info disclosure via source maps** (`app.min.js.map`) exposed a front-desk-only API path.
-2. **Unauthenticated internal API** (`/api/v1/rooms/status`) leaked the entire guest PII list (names, rooms, tiers), enabling trivial auth bypass on a password-less "room + last name" login.
-3. **SSTI in `/profile`** — user-controlled `display_name` concatenated straight into a Jinja2 `render_template_string` call — gave full RCE as `www-data`.
-4. **Credentials in shell history** — `george`'s `.bash_history` contained `david`'s plaintext password.
-5. **Credentials in logs** — `adm` group membership let `david` read `/var/log/provisioning.log`, which contained the plaintext root password from an automated provisioning step.
 
 Flags:
 - **User:** `/home/george/user.txt` (read directly via SSTI RCE)
