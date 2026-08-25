@@ -41,3 +41,4 @@ All of my CTF writeups are listed below.
 - [TRYHACKME — WATCHER WRITEUP](writeups/THM/tryhackme-watcher-writeup/)
 
 ## HackSmarterLabs
+- [HACKSMARTERLABS - CASINO](writeups/HackSmarterLabs/hsm-casino/)
