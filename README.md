@@ -14,6 +14,7 @@ All of my CTF writeups are listed below.
 - [TRYHACKME — ROOM 404](writeups/THM/tryhackme-room-404/)
 - [TRYHACKME — ANONYMOUS WRITEUP](writeups/THM/tryhackme-anonymous-writeup/)
 - [TRYHACKME — BEACH BAR](writeups/THM/tryhackme-beach-bar/)
+- [TRYHACKME — BREAK OUT THE CAGE](writeups/THM/tryhackme-breakoutthecage/)
 - [TRYHACKME — CACTCH ME OUTSIDE (OSINT)](writeups/THM/tryhackme-cactch-me-outside-osint/)
 - [TRYHACKME — COMPLIMENTARY](writeups/THM/tryhackme-complimentary/)
 - [TRYHACKME — CRYPTOCABANA](writeups/THM/tryhackme-cryptocabana/)
