@@ -1,7 +1,5 @@
 # TryHackMe - Break Out The Cage
 
-Time for a room that's basically a love letter to Nicholas Cage. We've got a dad obsessed with his own filmography, a son who apparently learned "cybersecurity" from an MIT dropout, and a pesticide-buying, quote-spamming cron script waiting to be abused. Let's get into it.
-
 ## Recon
 
 Standard full port nmap scan to kick things off:
@@ -281,11 +279,5 @@ Sean Archer
 So the "agent" has secretly been working for some shadowy "Actors Guild" the whole time, deliberately sabotaging Cage's career one bad role at a time. Absolute soap opera. And tucked right in the middle of it, the final flag:
 
 **FLAG: `THM{8R1NG_D0WN_7H3_C493_L0N9_L1V3_M3}`**
-
-## Wrap-up
-
-So to recap the chain: anonymous FTP leaked a base64-wrapped Vigenère cipher that cracked open SSH creds for weston, weston's group membership plus a sudo rule let us abuse a classic `os.system()` command injection in a cron/quote-spamming script to land a shell as cage, a checklist file handed over the first flag, and a second Vigenère cipher hidden in an email cracked Sean Archer's password - which turned out to be the root password all along. Root's own inbox then revealed Sean was secretly working for a shadowy "Actors Guild" to sabotage Cage's career, and dropped the final flag as a reward.
-
-Solid little room if you enjoy a healthy dose of cipher puzzles alongside your privesc.
 
 Thanks for reading!
