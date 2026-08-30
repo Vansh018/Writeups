@@ -32,6 +32,7 @@ All of my CTF writeups are listed below.
 - [TRYHACKME — OVERHEARD AT BREAKFAST](writeups/THM/tryhackme-overheard-at-breakfast/)
 - [TRYHACKME — OVERPASS 3:HOSTING WRITEUP](writeups/THM/tryhackme-overpass-3-hosting-writeup/)
 - [TRYHACKME — PACKED LIGHT](writeups/THM/tryhackme-packed-light/)
+- [TRYHACKME — PLOTTED TMS](writeups/THM/tryhackme-plotted-tms/)
 - [TRYHACKME — RESET](writeups/THM/tryhackme-reset/)
 - [TRYHACKME — THE CONCIERGE KNOWS TOO MUCH](writeups/THM/tryhackme-the-concierge-knows-too-much/)
 - [TRYHACKME — THE GUESTBOOK](writeups/THM/tryhackme-the-guestbook/)
