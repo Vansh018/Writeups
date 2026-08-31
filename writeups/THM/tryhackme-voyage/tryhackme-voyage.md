@@ -5,11 +5,6 @@
 
 ---
 
-## Overview
-
-Voyage is a multi-stage box that chains together a Joomla config leak, internal network pivoting through a Docker container, Python pickle deserialization RCE, and a container escape via a kernel module loaded with `cap_sys_module`. Clean and satisfying box.
-
----
 
 ## Reconnaissance
 
@@ -279,14 +274,4 @@ THM{ace91ec899f84498a74629b078bdceff}
 
 ---
 
-## Summary
-
-| Step | Technique |
-|------|-----------|
-| Joomla API config leak | Unauthenticated `/api/index.php/v1/config/application?public=true` |
-| Initial access | SSH port 2222 with leaked DB root credentials |
-| Pivot | SSH local port forwarding to internal Flask app |
-| RCE | Python pickle deserialization via `session_data` cookie |
-| Container escape | `cap_sys_module` → kernel module with `call_usermodehelper()` |
-
-Solid box. The pickle deserialization was fun to craft, and the `cap_sys_module` escape is one of the cleaner container breakout techniques you'll see. Thanks for reading!
+Thanks for reading!

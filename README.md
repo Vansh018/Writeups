@@ -40,6 +40,7 @@ All of my CTF writeups are listed below.
 - [TRYHACKME — TOWEL ON THE SUNBED](writeups/THM/tryhackme-towel-on-the-sunbed/)
 - [TRYHACKME — UNDISCOVERED](writeups/THM/tryhackme-undiscovered/)
 - [TRYHACKME — UNSTABLE TWIN](writeups/THM/tryhackme-unstable-twin/)
+- [TRYHACKME — VOYAGE](writeups/THM/tryhackme-voyage/)
 - [TRYHACKME — WATCHER WRITEUP](writeups/THM/tryhackme-watcher-writeup/)
 
 ## HackSmarterLabs
