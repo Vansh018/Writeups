@@ -24,6 +24,7 @@ All of my CTF writeups are listed below.
 - [TRYHACKME — DIFFERENT CTF](writeups/THM/tryhackme-different-ctf/)
 - [TRYHACKME — DO NOT DISTURB](writeups/THM/tryhackme-do-not-disturb/)
 - [TRYHACKME — DOMINO](writeups/THM/tryhackme-domino/)
+- [TRYHACKME — EPOCH](writeups/THM/tryhackme-epoch/)
 - [TRYHACKME — INFINITY POOL](writeups/THM/tryhackme-infinity-pool)
 - [TRYHACKME — LOOKING GLASS](writeups/THM/tryhackme-looking-glass/)
 - [TRYHACKME — MADEYE’S CASTLE](writeups/THM/tryhackme-madeyes-castle/)
