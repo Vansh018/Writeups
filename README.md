@@ -29,6 +29,8 @@ All of my CTF writeups are listed below.
 - [TRYHACKME — MADEYE’S CASTLE](writeups/THM/tryhackme-madeyes-castle/)
 - [TRYHACKME — MAGICIAN](writeups/THM/tryhackme-magician/)
 - [TRYHACKME — MNEMONIC](writeups/THM/tryhackme-mnemonic/)
+- [TRYHACKME — NERDHERD](writeups/THM/tryhackme-nerdherd/)
+- [TRYHACKME — OPERATION ENDGAME](writeups/THM/tryhackme-operation-endgame/)
 - [TRYHACKME — OVERHEARD AT BREAKFAST](writeups/THM/tryhackme-overheard-at-breakfast/)
 - [TRYHACKME — OVERPASS 3:HOSTING WRITEUP](writeups/THM/tryhackme-overpass-3-hosting-writeup/)
 - [TRYHACKME — PACKED LIGHT](writeups/THM/tryhackme-packed-light/)

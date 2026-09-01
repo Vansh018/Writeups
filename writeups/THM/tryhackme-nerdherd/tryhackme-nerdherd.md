@@ -1,7 +1,5 @@
 # TryHackMe — NerdHerd
 
-Time for another Chuck Bartowski themed box — **NerdHerd**. Nice mix of FTP loot, EXIF metadata, a Vigenère cipher, SMB creds, a hidden web directory, and a classic DirtyCow root. Let's get into it.
-
 ## Recon
 
 Standard full port nmap first:
@@ -200,8 +198,5 @@ THM{5c5b7f0a81ac1c00732803adcee4a473cf1be693}
 
 **Root flag: `THM{5c5b7f0a81ac1c00732803adcee4a473cf1be693}`**
 
-## Wrap-up
-
-Fun little chained box — anon FTP loot → EXIF metadata → Vigenère cipher (with the key hidden in a YouTube video, nice touch) → SMB share → hidden web directory → SSH creds → DirtyCow to root, with a decoy flag and a bonus flag thrown in for good measure. Classic Chuck Bartowski theming throughout.
 
 Thanks for reading!
