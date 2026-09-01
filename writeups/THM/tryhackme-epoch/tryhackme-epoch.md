@@ -2,8 +2,6 @@
 
 Target: `http://10.49.139.101/`
 
-Simple one today. The site is a little "Epoch to UTC convertor" ⏳ tool — you punch in a Unix timestamp, hit Convert, and it spits back the UTC date. Classic setup for a command injection challenge, so that's exactly where I went first.
-
 ## Poking at it
 
 Dropped in a normal value, `125151`, just to see it work:
@@ -57,8 +55,5 @@ And there's the flag sitting right in the environment variables.
 
 **FLAG: `flag{7da6c7debd40bd611560c13d8149b647}`**
 
-## Takeaway
-
-Textbook OS command injection — the backend (looks like a Go app, given `GOLANG_VERSION` in the env) was almost certainly shelling out to the system's `date` binary to do the epoch conversion instead of using a proper library call, and passing user input straight in unescaped. Moral of the story: never build shell commands out of raw user input, always use language-native parsing/date libraries instead of forking out to `date -d`.
 
 Thanks for reading!
