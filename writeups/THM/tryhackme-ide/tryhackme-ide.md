@@ -1,7 +1,5 @@
 # TryHackMe - IDE
 
-Time to root this box called "IDE" — the name's already telling us there's some kind of web-based IDE waiting for us. Let's get into it!
-
 ## Recon
 
 Kicking things off with a full port nmap scan:
