@@ -247,12 +247,3 @@ C:\Users\Administrator\Desktop> type root.txt
 ```
 
 ---
-
-## Attack Chain Summary
-
-```
-Guest SMB access → RID brute-force (2000+ users) → AS-REP roast (no hits)
-→ username-as-password spray (ybob317) → Kerberoast (5 SPN accounts)
-→ crack file_svc hash → backup share → NTLM hash dump for machine accounts
-→ pass-the-hash on FileServer$ (Pwn3d!) → psexec SYSTEM shell → user.txt + root.txt
-```
