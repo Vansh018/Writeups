@@ -56,7 +56,6 @@ immediately if any are found that are 'clear text'
 Access granted to personnel with clearance of Domination/5F or higher only.
 ```
 
-One of the other datapads leaked exactly what that warning was worried about — a dump of `username,hash` pairs (base64-looking blobs), i.e. a leftover credential archive that never got redacted.
 
 The real payoff is `/datacubes/0451/`, an internal note:
 
