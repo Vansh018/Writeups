@@ -123,7 +123,7 @@ speedy response to same. I'm glad our security efforts were up to snuff.
 
 **user flag:** `thm{6ae787a98fff512ae33335e1264f0dd3}`
 
-The Desktop also has a `badactors-list` binary sitting next to `user.txt` — this is the client for the C2 service seen on port 23023.
+The Desktop also has a `badactors-list` binary sitting next to `user.txt`
 
 ## Reversing the `badactors-list` client
 
