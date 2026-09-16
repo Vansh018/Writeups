@@ -38,6 +38,7 @@ All of my CTF writeups are listed below.
 - [TRYHACKME — PACKED LIGHT](writeups/THM/tryhackme-packed-light/)
 - [TRYHACKME — PLOTTED TMS](writeups/THM/tryhackme-plotted-tms/)
 - [TRYHACKME — RESET](writeups/THM/tryhackme-reset/)
+- [TRYHACKME — SOUPEDECODE01](writeups/THM/tryhackme-soupedecode01/)
 - [TRYHACKME — THE CONCIERGE KNOWS TOO MUCH](writeups/THM/tryhackme-the-concierge-knows-too-much/)
 - [TRYHACKME — THE GUESTBOOK](writeups/THM/tryhackme-the-guestbook/)
 - [TRYHACKME — THE HOLLOW SHELL](writeups/THM/tryhackme-the-hollow-shell/)
