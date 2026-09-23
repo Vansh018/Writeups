@@ -217,15 +217,3 @@ THM{esc4l4tions_on_esc4l4tions_on_esc4l4tions_7a52b17dba6ebb0dc38bc1049bcba02d}
 
 Root on the actual host — full container escape via the writable backup mount.
 
-## Summary
-
-- **LFI**: `?view=` parameter only checked for the substring "dog"/"cat", allowing path traversal + `php://filter` wrapper for arbitrary file read.
-- **RCE**: Log poisoning — injected PHP into the User-Agent header, then included `access.log` through the LFI to execute it.
-- **Privesc (container)**: `sudo` NOPASSWD on `/usr/bin/env` → GTFOBins → root inside the container.
-- **Container escape**: A host-side backup script was reachable through a writable bind mount (`/opt/backups` → host `/root/container/backup`), appended a reverse shell payload, waited for the host cron to fire it → root on the host.
-
-**Flags:**
-1. `THM{Th1s_1s_N0t_4_Catdog_ab67edfa}`
-2. `THM{LF1_t0_RC3_aec3fb}`
-3. `THM{D1ff3r3nt_3nv1ronments_874112}`
-4. `THM{esc4l4tions_on_esc4l4tions_on_esc4l4tions_7a52b17dba6ebb0dc38bc1049bcba02d}`
