@@ -25,6 +25,7 @@ All of my CTF writeups are listed below.
 - [TRYHACKME — DO NOT DISTURB](writeups/THM/tryhackme-do-not-disturb/)
 - [TRYHACKME — DOMINO](writeups/THM/tryhackme-domino/)
 - [TRYHACKME — DX1: LIBERTY ISLAND](writeups/THM/tryhackme-dx1-liberty-island/)
+- [TRYHACKME — EMPLINE](writeups/THM/tryhackme-empline/)
 - [TRYHACKME — EPOCH](writeups/THM/tryhackme-epoch/)
 - [TRYHACKME — IDE](writeups/THM/tryhackme-ide/)
 - [TRYHACKME — INFINITY POOL](writeups/THM/tryhackme-infinity-pool)

@@ -197,11 +197,3 @@ root@empline:~# cat root.txt
 
 **Root flag:** `74fea7cd0556e9c6f22e6f54bc68f5d5`
 
-## Summary
-
-- Found a hidden subdomain (`job.empline.thm`) buried in the main site's HTML source
-- Subdomain ran OpenCATS 0.9.4, vulnerable to a public unauthenticated RCE via the resume upload form
-- Got a `www-data` shell, pulled DB creds straight out of `config.php`
-- Dumped the `user` table from MySQL, cracked george's unsalted MD5 password
-- SSH'd in as george and grabbed the user flag
-- Found `ruby` with `cap_chown+ep` via `getcap -r /`, abused it to take ownership of `/etc/passwd`, added a UID 0 backdoor user, and got root
