@@ -23,6 +23,7 @@ All of my CTF writeups are listed below.
 - [TRYHACKME — DEBUG](writeups/THM/tryhackme-debug/)
 - [TRYHACKME — DIFFERENT CTF](writeups/THM/tryhackme-different-ctf/)
 - [TRYHACKME — DO NOT DISTURB](writeups/THM/tryhackme-do-not-disturb/)
+- [TRYHACKME — DOGCAT](writeups/THM/tryhackme-dogcat/)
 - [TRYHACKME — DOMINO](writeups/THM/tryhackme-domino/)
 - [TRYHACKME — DX1: LIBERTY ISLAND](writeups/THM/tryhackme-dx1-liberty-island/)
 - [TRYHACKME — EMPLINE](writeups/THM/tryhackme-empline/)
