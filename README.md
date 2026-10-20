@@ -16,6 +16,7 @@ All of my CTF writeups are listed below.
 - [TRYHACKME — BEACH BAR](writeups/THM/tryhackme-beach-bar/)
 - [TRYHACKME — BREAK OUT THE CAGE](writeups/THM/tryhackme-breakoutthecage/)
 - [TRYHACKME — CACTCH ME OUTSIDE (OSINT)](writeups/THM/tryhackme-cactch-me-outside-osint/)
+- [TRYHACKME — CHRONICLE](writeups/THM/tryhackme-chronicle/)
 - [TRYHACKME — COMPLIMENTARY](writeups/THM/tryhackme-complimentary/)
 - [TRYHACKME — COOCTUS CLAN](writeups/THM/tryhackme-cooctus-clan/)
 - [TRYHACKME — CRYPTOCABANA](writeups/THM/tryhackme-cryptocabana/)
