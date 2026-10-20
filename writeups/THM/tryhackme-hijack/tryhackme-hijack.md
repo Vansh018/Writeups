@@ -252,13 +252,3 @@ THM{b91ea3e8285157eaf173d88d0a73ed5a}
 ```
 
 ---
-
-## Summary
-
-1. Full port scan, found NFS exporting `/mnt/share` to everyone
-2. Accessed the share as the `hijack` user, which exposed FTP credentials for `ftpuser`
-3. FTP gave the admin hint and the password list
-4. Login is rate limited, so brute forced the `PHPSESSID` cookie (`base64(admin:md5(pass))`) on `/administration.php` instead
-5. Command injection in the service checker with `&&` gave a shell as `www-data`
-6. `config.php` leaked the password for `rick`, used over SSH
-7. `sudo` allowed Apache as root with `LD_LIBRARY_PATH` kept, so a malicious `libcrypt.so.1` gave root
