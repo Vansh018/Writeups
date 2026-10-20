@@ -241,14 +241,3 @@ root@incognito:~#
 
 Root.
 
-## Summary
-
-| Step | Technique |
-|---|---|
-| Recon | nmap + gobuster found `/old/` on port 80 |
-| Source disclosure | Exposed `.git` directory dumped and mined via `git log` / `git show` |
-| Initial access | Hardcoded API key + username brute-force against a leaked `/api/<username>` endpoint recovered `tommy`'s password |
-| user.txt | `7ba840222ecbdb57af4d24eb222808ad` |
-| Lateral movement | Decrypted `carlJ`'s saved Firefox logins and reused the password for `su carlJ` |
-| Privesc | CVE-2021-4034 (PwnKit) |
-| root.txt | `f21979de76c0302154cc001884143ab2` |
